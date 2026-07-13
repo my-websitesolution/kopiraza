@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 120px;
 }
 body {
   font-family: Arial, Helvetica, sans-serif;
@@ -1037,7 +1038,12 @@ a.lokasi-btn {
 
   .navbar a {
     font-size: 1.15rem;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
+  }
+
+  .navbar a:hover {
+    border-bottom: 2px solid #c99563;
+    color: #c99563;
   }
 
   /* ========================================================================
@@ -1396,7 +1402,7 @@ a.lokasi-btn {
 
   .navbar a {
     font-size: 1.15rem;
-    padding-bottom: 4px;
+    padding-bottom: 8px;
   }
 
   /* ========================================================================
@@ -1658,6 +1664,10 @@ a.lokasi-btn {
 }
 
 @media (max-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+  }
   /* --- Header container ------------------------------------------------- */
   header {
     padding: 14px 5%;
@@ -1794,7 +1804,7 @@ a.lokasi-btn {
 
   .navbar a {
     font-size: 1.3rem;
-    padding-bottom: 4px;
+    padding-bottom: 6px;
   }
 
   /* --- (Opsional) Overlay gelap di belakang dropdown ----------------------
@@ -2323,6 +2333,10 @@ a.lokasi-btn {
    RESPONSIVE ADD-ON — HP KECIL (max-width: 512px)
    ========================================================================== */
 @media (max-width: 512px) {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+  }
   /* ... header & navbar tetap sama ... */
   header {
     padding: 12px 5%;
